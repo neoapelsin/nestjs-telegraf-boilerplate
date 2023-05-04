@@ -1,0 +1,33 @@
+language_name: Русский
+
+common:
+  error: Произошла ошибка
+  no_access: Нет доступа
+
+button:
+  start: Старт
+  wizard_scene: Выбрать пошаговую сцену
+  scene: Выбрать обычную сцену
+  profile: Профиль
+
+page:
+  start: | 
+    <b>Это бот для демонстрации</b>
+
+  profile: |
+    <b>Профиль:</b>
+    ID: <b>${id}</b>
+    username: <b>${username}</b>
+  
+  scene: |
+    <b>Это обычная сцена</b>
+  wizard: |
+    <b>Это пошаговая сцена</b>
+
+scene:
+  button: Кнопка
+  back: Назад
+  click: Вы кликнули на кнопку!
+  
+wizard:
+  
